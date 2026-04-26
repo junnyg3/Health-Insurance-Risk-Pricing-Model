@@ -26,6 +26,25 @@ Multiple regression models were evaluated, with the final model selected based o
 
 ---
 
+## Why This Project Matters
+
+This project mirrors key components of real actuarial and underwriting workflows:
+
+* Risk assessment using data
+* Predictive modeling
+* Pricing and premium calculation
+* Customer segmentation
+
+---
+
+## Key Insights
+
+* Smoking status has the largest impact on insurance costs
+* Tree-based models tend to capture nonlinear relationships better
+* Combining ML predictions with pricing logic creates a realistic underwriting simulation
+
+---
+
 ## Project Workflow
 
 ### 1. Exploratory Data Analysis (EDA)
@@ -130,14 +149,6 @@ Policyholders are grouped into risk tiers:
 
 ---
 
-## Key Insights
-
-* Smoking status has the largest impact on insurance costs
-* Tree-based models tend to capture nonlinear relationships better
-* Combining ML predictions with pricing logic creates a realistic underwriting simulation
-
----
-
 ## Project Structure
 
 ```
@@ -172,23 +183,6 @@ jupyter notebook
 
 ---
 
-## Why This Project Matters
-
-This project mirrors key components of real actuarial and underwriting workflows:
-
-* Risk assessment using data
-* Predictive modeling
-* Pricing and premium calculation
-* Customer segmentation
-
-It is designed to showcase skills relevant to:
-
-* Actuarial Analyst roles
-* Data Analyst roles
-* Entry-level Data Science positions
-
----
-
 ## Future Improvements
 
 * Add more advanced models (e.g., XGBoost)
@@ -202,5 +196,3 @@ It is designed to showcase skills relevant to:
 
 Jonathan Garcia
 
-
-Consider giving the repo a star!
