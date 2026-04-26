@@ -45,6 +45,37 @@ This project mirrors key components of real actuarial and underwriting workflows
 
 ---
 
+## Future Improvements
+
+* Add more advanced models (e.g., XGBoost)
+* Incorporate cross-validation
+* Build a simple web app for user input
+* Add real-world constraints (regulation, profit targets)
+
+---
+
+## How to Run
+
+1. Clone the repository:
+
+```
+git clone https://github.com/yourusername/Health-Insurance-Risk-Pricing-Model.git
+```
+
+2. Install dependencies:
+
+```
+pip install pandas numpy scikit-learn matplotlib
+```
+
+3. Run the Jupyter Notebook:
+
+```
+jupyter notebook
+```
+
+---
+
 ## Project Workflow
 
 ### 1. Exploratory Data Analysis (EDA)
@@ -146,49 +177,6 @@ Policyholders are grouped into risk tiers:
 * **Low Risk**: < $5,000
 * **Medium Risk**: $5,000 – $15,000
 * **High Risk**: > $15,000
-
----
-
-## Project Structure
-
-```
-Health-Insurance-Risk-Pricing-Model/
-│
-├── insurance_pricing_model.ipynb
-├── insurance.csv
-├── README.md
-```
-
----
-
-## How to Run
-
-1. Clone the repository:
-
-```
-git clone https://github.com/yourusername/Health-Insurance-Risk-Pricing-Model.git
-```
-
-2. Install dependencies:
-
-```
-pip install pandas numpy scikit-learn matplotlib
-```
-
-3. Run the Jupyter Notebook:
-
-```
-jupyter notebook
-```
-
----
-
-## Future Improvements
-
-* Add more advanced models (e.g., XGBoost)
-* Incorporate cross-validation
-* Build a simple web app for user input
-* Add real-world constraints (regulation, profit targets)
 
 ---
 
